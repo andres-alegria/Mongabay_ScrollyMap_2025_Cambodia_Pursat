@@ -68,11 +68,15 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 0.0,
+          opacity: 0,
         },
       
       ],
       onChapterExit: [
+           {
+          layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
       ],
     },
     
@@ -111,6 +115,10 @@ export default {
         },
       ],
       onChapterExit: [
+           {
+          layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
       ],
     },
     
@@ -143,10 +151,14 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 1,
+          opacity: 0,
         },
       ],
       onChapterExit: [
+           {
+          layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
       ],
     },
     
@@ -175,14 +187,14 @@ export default {
           opacity: 1,
         },
         {
-          layer: 'Satelitte_August_12_2025',
-          opacity: 0.5,
+          layer: 'redd-cambodia',
+          opacity: 0,
         },
       ],
       onChapterExit: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 0.75,
+          opacity: 0,
         },
       ],
     },
@@ -206,10 +218,14 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 1,
+          opacity: 0,
         },
       ],
       onChapterExit: [
+             {
+          layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
       ],
     },
     
@@ -240,10 +256,14 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 1,
+          opacity: 0,
         },
       ],
       onChapterExit: [
+             {
+          layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
       ],
     },
     
