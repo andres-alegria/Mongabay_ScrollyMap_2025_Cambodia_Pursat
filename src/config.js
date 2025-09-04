@@ -1,25 +1,25 @@
 const { REACT_APP_MAPBOX_ACCESS_TOKEN } = process.env;
 
 export default {
-  style: 'mapbox://styles/mongabay/cmdyt9fxl005a01qzb0d4das5',
+  style: 'mapbox://styles/mongabay/cmf27h1uu01lt01pg0m0mcupt',
   accessToken: REACT_APP_MAPBOX_ACCESS_TOKEN,
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'M-Sand',
+    title: 'The Arai River',
     subtitle:
-      'When one ban triggers another crisis: how Kerala’s river sand mining ban is leading to more quarrying in the Western Ghats.',
-    date: 'Sept. 05 2025',
+      'This mountainous tributary, to be dammed and deforested, flows into the Pursat River which feeds into the Tonle Sap Lake.',
+    date: 'Draft Sept. 05 2025',
     social: [
       {
         name: 'twitter',
         src: 'twitter.svg',
-        href: 'https://x.com/MongabayIndia',
+        href: 'https://x.com/Mongabay',
       },
       {
         name: 'facebook',
         src: 'facebook.svg',
-        href: 'https://www.facebook.com/MongabayIndia/',
+        href: 'https://www.facebook.com/Mongabay/',
       },
     ],
   },
@@ -28,7 +28,7 @@ export default {
       name: 'mongabay',
       src: 'mongabaylogo.png',
       width: '140',
-      href: 'https://india.mongabay.com',
+      href: 'https://news.mongabay.com',
     },
     {
       name: 'vizzuality',
@@ -56,10 +56,10 @@ export default {
       sources:
         "Placeholder text.",
       location: {
-        center: [77.20, 10.75],
-        zoom: 6.5,
-        pitch: 30.0,
-        bearing: 60,
+        center: [105.85, 12.17],
+        zoom: 4.5,
+        pitch: 0.0,
+        bearing: 0,
       },
       mapAnimation: 'flyTo',
       rotateAnimation: false,
