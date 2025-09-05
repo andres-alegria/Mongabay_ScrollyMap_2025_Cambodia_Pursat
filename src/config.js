@@ -236,7 +236,7 @@ export default {
       title: 'Tonle Sap',
       images: [
         {
-          src: 'Photo2.jpg',
+          src: 'photo2.jpg',
           position: 'top',
           title: 'Artisanal fisher',
           author: 'Tonle Sap',
