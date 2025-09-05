@@ -194,7 +194,7 @@ export default {
       onChapterExit: [
         {
           layer: 'Satelitte_August_12_2025',
-          opacity: 0,
+          opacity: 0.25,
         },
       ],
     },
