@@ -183,7 +183,7 @@ export default {
         'The dam, which officials say will safeguard against floods and secure water for agriculture, looks set to clear more than 7,300 hectares of protected forest.',
       legend: [
       ],
-      sources: 'Copernicus',
+      sources: 'Mapbox',
       location: {
         center: [103.709, 12.162],
         zoom: 12.5,
