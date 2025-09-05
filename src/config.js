@@ -70,6 +70,10 @@ export default {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
         },
+             {
+          layer: 'satellite color',
+          opacity: 0,
+        },
       
       ],
       onChapterExit: [
@@ -113,6 +117,10 @@ export default {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
         },
+                  {
+          layer: 'satellite color',
+          opacity: 0,
+        },
       ],
       onChapterExit: [
            {
@@ -153,6 +161,10 @@ export default {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
         },
+                         {
+          layer: 'satellite color',
+          opacity: 0,
+        },
       ],
       onChapterExit: [
            {
@@ -184,10 +196,55 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
+        {
+          layer: 'redd-cambodia',
+          opacity: 0,
+        },
+                         {
+          layer: 'satellite color',
+          opacity: 1,
+        },
+      ],
+      onChapterExit: [
+        {
+          layer: 'satellite color',
+          opacity: 0,
+        },
+      ],
+    },
+    
+    {
+      id: 'fourth-chapter-B',
+      alignment: 'right',
+      hidden: false,
+      title: 'Satellite imagery',
+      description:
+        'A roughly 10-kilometer (6-mile) road being carved through the forest to the dam site appeared between February and March 2025, followed by some 60 hectares of forest clearance taking place within the project area through at least Aug. 12.',
+      legend: [
+      ],
+      sources: 'Copernicus',
+      location: {
+        center: [103.709, 12.162],
+        zoom: 12.5,
+        pitch: 0,
+        bearing: 25,
+      },
+      mapAnimation: 'flyTo',
+      rotateAnimation: false,
+      callback: '',
+      onChapterEnter: [
+        {
+          layer: 'Satelitte_August_12_2025',
           opacity: 1,
         },
         {
           layer: 'redd-cambodia',
+          opacity: 0,
+        },
+                         {
+          layer: 'satellite color',
           opacity: 0,
         },
       ],
@@ -218,6 +275,10 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
+                         {
+          layer: 'satellite color',
           opacity: 0,
         },
       ],
@@ -256,6 +317,10 @@ export default {
       onChapterEnter: [
         {
           layer: 'Satelitte_August_12_2025',
+          opacity: 0,
+        },
+                         {
+          layer: 'satellite color',
           opacity: 0,
         },
       ],
