@@ -178,9 +178,9 @@ export default {
       id: 'fourth-chapter',
       alignment: 'right',
       hidden: false,
-      title: 'Satellite imagery',
+      title: 'Satellite imagery, before',
       description:
-        'A roughly 10-kilometer (6-mile) road being carved through the forest to the dam site appeared between February and March 2025, followed by some 60 hectares of forest clearance taking place within the project area through at least Aug. 12.',
+        'The dam, which officials say will safeguard against floods and secure water for agriculture, looks set to clear more than 7,300 hectares of protected forest.',
       legend: [
       ],
       sources: 'Copernicus',
@@ -219,7 +219,7 @@ export default {
       id: 'fourth-chapter-B',
       alignment: 'right',
       hidden: false,
-      title: 'Satellite imagery',
+      title: 'Satellite imagery, after',
       description:
         'A roughly 10-kilometer (6-mile) road being carved through the forest to the dam site appeared between February and March 2025, followed by some 60 hectares of forest clearance taking place within the project area through at least Aug. 12.',
       legend: [
