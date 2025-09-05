@@ -236,10 +236,10 @@ export default {
       title: 'Tonle Sap',
       images: [
         {
-          src: 'Photo1.jpg',
+          src: 'Photo2.jpg',
           position: 'top',
-          title: 'Placeholder text',
-          author: 'Placeholder text',
+          title: 'Artisanal fisher',
+          author: 'Tonle Sap',
         },
       ],
       description:
