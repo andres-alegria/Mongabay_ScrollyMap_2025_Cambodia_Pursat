@@ -93,16 +93,14 @@ export default {
         "Dams have been built and more are under construction within protected forests in Cambodia’s Cardamom Mountains, with five hydropower dams already operational and others in various stages of development, including projects like Irrigation Dam 2 in Pursat province.",
       legend: [
         {
-          title: 'Samkos REDD+ proyect area',
-          color: '#006a54',
-          pattern: 'LINEPATTERN-green',
+          title: 'Samkos REDD+ project area',
+          color: '#LINEPATTERN-green',
         },
            {
           title: 'Protected Areas',
           color: '#006a54',
         },
       ],
-      sources: "Placeholder text",
       location: {
         center: [103.75, 12.0],
         zoom: 8.25,
@@ -119,6 +117,18 @@ export default {
         },
                   {
           layer: 'satellite color',
+          opacity: 0,
+        },
+                       {
+          layer: 'Project Area line',
+          opacity: 0,
+        },
+               {
+          layer: 'Rokat commune line',
+          opacity: 0,
+        },
+                     {
+          layer: 'Rokat commune',
           opacity: 0,
         },
       ],
@@ -140,11 +150,12 @@ export default {
       legend: [
         {
           title: 'Irrigation Dam 2 project area',
-          color: '#de6363',
+          border: '#de595b',
         },
         {
           title: 'Rokat commune',
           color: '#055546',
+          dasharray: [6, 3],
         },
       ],
       location: {
@@ -157,6 +168,18 @@ export default {
       rotateAnimation: false,
       callback: '',
       onChapterEnter: [
+                       {
+          layer: 'Project Area line',
+          opacity: 1,
+        },
+               {
+          layer: 'Rokat commune line',
+          opacity: 1,
+        },
+                     {
+          layer: 'Rokat commune',
+          opacity: 0.5,
+        },
         {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
@@ -306,8 +329,8 @@ export default {
       description:
         "The proliferation of irrigation dams and other barriers across the river’s catchment area has restricted the access of fish to and from the Tonle Sap Lake, Southeast Asia’s largest freshwater lake. Irrigation Dam 2 looks set to exacerbate these conditions, restricting the river flows and cutting off riverine communities.",
       location: {
-        center: [103.9, 12.5],
-        zoom: 8.25,
+        center: [103.9, 12.15],
+        zoom: 9.25,
         pitch: 0,
         bearing: 25,
       },
