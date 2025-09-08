@@ -5,6 +5,26 @@ import { useTranslation } from 'react-i18next';
 import { Waypoint } from 'react-waypoint';
 import LegendIcon from '../icons/legend-icon';
 
+const getPatternStyles = (l) => {
+  if (!l.pattern) return { backgroundColor: l.color };
+
+  // Allow both object or flat fields
+  const p = typeof l.pattern === 'object' ? l.pattern : {};
+  const angle     = p.angle     ?? l.patternAngle     ?? 45; // deg
+  const thickness = p.thickness ?? l.patternThickness ?? 3;  // px
+  const gap       = p.gap       ?? l.patternGap       ?? 6;  // px
+  const bg        = p.bg        ?? l.patternBg        ?? 'transparent'; // <- background color
+  const t = Math.max(1, Number(thickness));
+  const g = Math.max(1, Number(gap));
+
+  return {
+    // base fill under the stripes
+    backgroundColor: bg,
+    // stripes on top
+    backgroundImage: `repeating-linear-gradient(${angle}deg, ${l.color} 0 ${t}px, transparent ${t}px ${t+g}px)`,
+  };
+};
+
 const ALIGNMENTS = {
   left: 'w-full lg:w-1/3 m-left-chapter',
   fully: 'w-full lg:w-1/2 mx-auto',
@@ -60,8 +80,8 @@ function Chapter({
             <span
               className="legendItem w-8 h-8 mr-4"
               style={{
-                backgroundColor: l.color,
-                border: l.border ? `solid 2px ${l.border}` : 'none',
+   ...getPatternStyles(l),
+    border: l.border ? `solid 2px ${l.border}` : 'none',
               }}
             />
           )}

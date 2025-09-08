@@ -41,6 +41,7 @@ export default {
   footer: 'Cartography by Andrés Alegría for Mongabay.',
   chapters: [
 
+    // chapter 1
     {
       id: 'first chapter',
       alignment: 'left',
@@ -84,6 +85,7 @@ export default {
       ],
     },
     
+    // chapter 2
     {
       id: 'second-chapter',
       alignment: 'right',
@@ -94,7 +96,8 @@ export default {
       legend: [
         {
           title: 'Samkos REDD+ project area',
-          color: '#LINEPATTERN-green',
+          pattern: { angle: 120, thickness: 2, gap: 6, bg: '#fafafa' },
+          color: '#bde2af',
         },
            {
           title: 'Protected Areas',
@@ -140,6 +143,7 @@ export default {
       ],
     },
     
+    // chapter 3
     {
       id: 'third-chapter',
       alignment: 'right',
@@ -196,7 +200,8 @@ export default {
         },
       ],
     },
-    
+
+    // chapter 4a
     {
       id: 'fourth-chapter',
       alignment: 'right',
@@ -237,7 +242,8 @@ export default {
         },
       ],
     },
-    
+
+    // chapter 4b
     {
       id: 'fourth-chapter-B',
       alignment: 'right',
@@ -279,6 +285,7 @@ export default {
       ],
     },
     
+    // chapter 5
     {
       id: 'fifth-chapter',
       alignment: 'right',
@@ -313,6 +320,7 @@ export default {
       ],
     },
     
+    // chapter 6
     {
       id: 'sixth-chapter',
       alignment: 'left',
