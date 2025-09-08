@@ -6,10 +6,10 @@ export default {
   showMarkers: false,
   theme: 'mongabay',
   intro: {
-    title: 'The Arai River',
+    title: 'Damming the Arai River',
     subtitle:
-      'This mountainous tributary, to be dammed and deforested, flows into the Pursat River which feeds into the Tonle Sap Lake.',
-    date: 'Draft Sept. 05 2025',
+      'Irrigation Dam 2 will close the Arai River, which feeds into the Pursat River - an important ecosystem that sustains the Tonle Sap Lake, Cambodia’s most productive freshwater fishery. The new dam will clear some 7,300 hectares of protected forest and deprive communities of access to free-flowing water.',
+    date: 'Sept. 9 2025',
     social: [
       {
         name: 'twitter',
@@ -50,8 +50,8 @@ export default {
         {
           src: 'Photo1.jpg',
           position: 'top',
-          title: 'Dam construction',
-          author: 'Pursat',
+          title: 'Dam construction in Pursat',
+          author: 'Image provided by source',
         },
       ],
       description:
@@ -90,7 +90,7 @@ export default {
       hidden: false,
       title: "Dams",
       description:
-        "Dams have been built and are under construction within and around the Cardamom Mountains in Cambodia, with five hydropower dams already operational and others in various stages of development, including projects like the Dam 2 in Pursat province.",
+        "Dams have been built and more are under construction within protected forests in Cambodia’s Cardamom Mountains, with five hydropower dams already operational and others in various stages of development, including projects like Irrigation Dam 2 in Pursat province.",
       legend: [
         {
           title: 'Samkos REDD+ proyect area',
@@ -136,7 +136,7 @@ export default {
       hidden: false,
       title: 'Overlaps',
       description:
-          'The hydroelectric project`s area which lies within the Rokat commune, overlaps with the Samkos REDD+ project area.',
+          'Irrigation Dam 2’s project area which lies within Rokat commune, but also looks set to clear protected forest within the Samkos REDD+ project area.',
       legend: [
         {
           title: 'Irrigation Dam 2 project area',
@@ -180,7 +180,7 @@ export default {
       hidden: false,
       title: 'Satellite imagery, before',
       description:
-        'The dam, which officials say will safeguard against floods and secure water for agriculture, looks set to clear more than 7,300 hectares of protected forest.',
+        'Project area before the construction phase.',
       legend: [
       ],
       sources: 'Mapbox',
@@ -221,7 +221,7 @@ export default {
       hidden: false,
       title: 'Satellite imagery, after',
       description:
-        'A roughly 10-kilometer (6-mile) road being carved through the forest to the dam site appeared between February and March 2025, followed by some 60 hectares of forest clearance taking place within the project area through at least Aug. 12.',
+        'Satellite imagery appears to show a roughly 10-kilometer (6-mile) road being carved through the forest to the dam site between February and March 2025, followed by some 60 hectares of forest clearance taking place within the project area through at least Aug. 12.',
       legend: [
       ],
       sources: 'Copernicus',
@@ -262,7 +262,7 @@ export default {
       hidden: false,
       title: 'Restricted water flow',
       description:
-        'The dam is being built on the Arai River, the largest natural source of water for upwards of 40 families in Rokat commune who use it for everything from cooking, bathing and drinking to irrigating crops and sustaining livestock. It is also a key tributary of the Pursat River, which in turn empties into the Tonle Sap.',
+        'The dam is being built on the Arai River, the largest natural source of water for upwards of 40 families in Rokat commune who use it for everything from cooking, bathing and drinking to irrigating crops and sustaining livestock. It is also a key tributary of the Pursat River, which in turn empties into the Tonle Sap Lake.',
       location: {
         center: [103.9, 12.15],
         zoom: 9.25,
@@ -300,7 +300,7 @@ export default {
           src: 'photo2.jpg',
           position: 'top',
           title: 'Artisanal fisher',
-          author: 'Tonle Sap',
+          author: 'Tonle Sap Lake',
         },
       ],
       description:
