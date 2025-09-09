@@ -324,13 +324,12 @@ export default {
       id: 'sixth-chapter',
       alignment: 'left',
       hidden: false,
-      title: 'Tonle Sap',
+      title: 'Tonle Sap Lake',
       images: [
         {
           src: 'photo2.jpg',
           position: 'top',
           title: 'Artisanal fisher',
-          author: 'Tonle Sap Lake',
         },
       ],
       description:
