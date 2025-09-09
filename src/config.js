@@ -105,7 +105,7 @@ export default {
         },
       ],
       location: {
-        center: [103.75, 12.0],
+        center: [103.700, 12.160],
         zoom: 8.25,
         pitch: 40.0,
         bearing: 25,
@@ -163,7 +163,7 @@ export default {
         },
       ],
       location: {
-        center: [103.75, 12.0],
+        center: [103.700, 12.160],
         zoom: 10.25,
         pitch: 40.0,
         bearing: 25,
@@ -213,7 +213,7 @@ export default {
       ],
       sources: 'Mapbox',
       location: {
-        center: [103.709, 12.162],
+        center: [103.700, 12.160],
         zoom: 12.5,
         pitch: 0,
         bearing: 25,
@@ -255,7 +255,7 @@ export default {
       ],
       sources: 'Copernicus',
       location: {
-        center: [103.709, 12.162],
+        center: [103.700, 12.160],
         zoom: 12.5,
         pitch: 0,
         bearing: 25,
@@ -337,7 +337,7 @@ export default {
       description:
         "The proliferation of irrigation dams and other barriers across the river’s catchment area has restricted the access of fish to and from the Tonle Sap Lake, Southeast Asia’s largest freshwater lake. Irrigation Dam 2 looks set to exacerbate these conditions, restricting the river flows and cutting off riverine communities.",
       location: {
-        center: [103.9, 12.15],
+        center: [104.070, 12.900],
         zoom: 9.25,
         pitch: 0,
         bearing: 25,
