@@ -158,8 +158,7 @@ export default {
         },
         {
           title: 'Rokat commune',
-          color: '#055546',
-          dasharray: [6, 3],
+          color: '#e6a444',
         },
       ],
       location: {
