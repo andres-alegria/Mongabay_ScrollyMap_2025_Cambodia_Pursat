@@ -68,6 +68,14 @@ export default {
       callback: '',
       onChapterEnter: [
         {
+          layer: 'redd-cambodia',
+          opacity: 1,
+        },
+                  {
+          layer: 'protectedareas-cambodia2023-9x3vt5',
+          opacity: 1,
+        },
+        {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
         },
@@ -79,6 +87,14 @@ export default {
       ],
       onChapterExit: [
            {
+          layer: 'redd-cambodia',
+          opacity: 1,
+        },
+                  {
+          layer: 'protectedareas-cambodia2023-9x3vt5',
+          opacity: 1,
+        },
+        {
           layer: 'Satelitte_August_12_2025',
           opacity: 0,
         },
