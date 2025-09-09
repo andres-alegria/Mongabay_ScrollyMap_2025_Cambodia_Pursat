@@ -309,7 +309,7 @@ export default {
       description:
         'The dam is being built on the Arai River, the largest natural source of water for upwards of 40 families in Rokat commune who use it for everything from cooking, bathing and drinking to irrigating crops and sustaining livestock. It is also a key tributary of the Pursat River, which in turn empties into the Tonle Sap Lake.',
       location: {
-        center: [103.9, 12.15],
+        center: [103.700, 12.160],
         zoom: 9.25,
         pitch: 0,
         bearing: 25,
