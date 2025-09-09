@@ -166,7 +166,7 @@ export default {
       hidden: false,
       title: 'Overlaps',
       description:
-          'Irrigation Dam 2’s project area which lies within Rokat commune, but also looks set to clear protected forest within the Samkos REDD+ project area.',
+          "Irrigation Dam 2’s project area lies within Pursat province's Rokat commune, but is also set to clear protected forest within the Samkos REDD+ project area.",
       legend: [
         {
           title: 'Irrigation Dam 2 project area',
