@@ -30,12 +30,6 @@ export default {
       width: '140',
       href: 'https://news.mongabay.com',
     },
-    {
-      name: 'vizzuality',
-      src: 'vizzualitylogo.png',
-      width: '100',
-      href: 'https://vizzuality.com',
-    },
   ],
   alignment: 'left',
   footer: 'Cartography by Andrés Alegría for Mongabay.',
